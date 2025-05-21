@@ -1,9 +1,9 @@
 # Infinity Miner v2
 
-An OpenCL miner for solving the [INFINITY Token](https://8finity.xyz/) Proof-of-Work **Magic XOR** problem.  
+An OpenCL miner for solving the [Infinity Token](https://github.com/8finity-xyz/protocol) Proof-of-Work **Magic XOR** problem.  
 
 > **Acknowledgment**  
-> This miner is based on the [profanity2](https://github.com/1inch/profanity2) approach, with special modifications to handle Infinity’s `MagicXOR` puzzle. 
+> This miner is based on the [profanity2](https://github.com/1inch/profanity2) approach, with special modifications to handle Infinity's `MagicXOR` puzzle. 
 
 ## Quick Start with Docker
 
@@ -35,7 +35,8 @@ docker run --env-file .env infinity-miner
 1. **Install Python and pip**
    - Download and install from [python.org](https://www.python.org/downloads/)
 
-2. **Install OpenCL (Linux)**
+2. **Install OpenCL**
+   **For ** 
    ```bash
    sudo apt update && sudo apt install -y \
        ocl-icd-opencl-dev \
@@ -54,7 +55,7 @@ docker run --env-file .env infinity-miner
 4. **Configure Environment**
    Create a `.env` file in the project root:
    ```bash
-   # Required: Your private key for mining (64 characters after 0x)
+   # Required: Your private key for mining (64 characters after 0x). You need to have some Sonic (S) balance to start mining.
    INFINITY_MINER_PRIVATE_KEY=your_private_key_here
 
    # Optional: RPC and WebSocket endpoints
@@ -75,7 +76,7 @@ docker run --env-file .env infinity-miner
 
 ## Configuration Options
 
-- `INFINITY_MINER_PRIVATE_KEY`: Your private key for mining (required)
+- `INFINITY_MINER_PRIVATE_KEY`: Your private key for mining (required) 
 - `INFINITY_RPC`: Custom RPC endpoint (optional)
 - `INFINITY_WS`: Custom WebSocket endpoint (optional)
 - `INFINITY_REWARDS_RECIPIENT_ADDRESS`: Address to receive mining rewards (optional)
@@ -83,4 +84,4 @@ docker run --env-file .env infinity-miner
 
 ## Support
 
-For issues and feature requests, please open an issue on GitHub. 
+For issues and feature requests, please open an issue on GitHub. We also welcome pull requests for improvements and bug fixes. 
