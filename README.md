@@ -1,9 +1,6 @@
-# Infinity Miner v2
+# INFINITY Miner v2
 
-An OpenCL miner for solving the [Infinity Token](https://github.com/8finity-xyz/protocol) Proof-of-Work **Magic XOR** problem.  
-
-> **Acknowledgment**  
-> This miner is based on the [profanity2](https://github.com/1inch/profanity2) approach, with special modifications to handle Infinity's `MagicXOR` puzzle. 
+[More info about INFINITY Token](https://8finity.xyz)
 
 ## Quick Start with Docker
 
