@@ -35,7 +35,7 @@ docker run --env-file .env infinity-miner
 
 2. **Install OpenCL**
 
-   **For Linux** 
+   For Linux
    ```bash
    sudo apt update && sudo apt install -y \
        ocl-icd-opencl-dev \
@@ -43,7 +43,7 @@ docker run --env-file .env infinity-miner
        python3-pip
    ```
 
-   **For macOS**
+   For macOS
    - OpenCL is included with macOS
 
 3. **Install Dependencies**
