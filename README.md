@@ -7,7 +7,7 @@
 - Python 3.10 or higher
 - pip (Python package manager)
 - OpenCL support
-- Docker (optional for docker installation
+- Docker (optional for Docker installation)
 
 ## Quick Start with Docker
 
