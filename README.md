@@ -2,6 +2,13 @@
 
 [More info about INFINITY Token](https://8finity.xyz)
 
+## Prerequisites
+
+- Python 3.10 or higher
+- pip (Python package manager)
+- OpenCL support
+- Docker (optional for docker installation
+
 ## Quick Start with Docker
 
 The easiest way to run the miner is using Docker:
@@ -20,12 +27,6 @@ docker run --env-file .env infinity-miner
 ```
 
 ## Manual Installation
-
-### Prerequisites
-
-- Python 3.10 or higher
-- pip (Python package manager)
-- OpenCL support
 
 ### Installation Steps
 
